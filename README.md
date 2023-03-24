@@ -74,3 +74,20 @@ conversar?</p> - Define um parágrafo dentro da seção, com a classe "apresenta
 <footer></footer> - Define uma seção de rodapé da página.
 </body> - Finaliza o corpo da página.
 </html> - Finaliza o documento HTML.
+
+
+
+
+CSS
+
+
+A primeira linha faz o import de uma fonte externa do Google Fonts para ser utilizada no código.
+O seletor universal * remove a margem e o preenchimento de todos os elementos HTML.
+O seletor body define as propriedades de estilo do corpo da página HTML, como a cor de fundo e a cor do texto. A altura do corpo é definida como 100% da altura da viewport.
+O seletor .titulo-destaque define a cor do texto para um tom de azul mais claro.
+O seletor .apresentacao define as propriedades de estilo do contêiner principal do conteúdo da página HTML. É definido um espaçamento em torno do contêiner e um layout flexível com espaçamento uniforme entre os itens filhos.
+O seletor .apresentacao__conteudo define as propriedades de estilo do contêiner do conteúdo principal da página HTML, como a largura, o layout flexível com espaçamento uniforme entre os itens filhos e o espaçamento entre esses itens.
+O seletor .apresentacao__conteudo__titulo define a fonte, o tamanho da fonte e outras propriedades de estilo do título principal do conteúdo da página HTML.
+O seletor .apresentacao__conteudo__texto define a fonte, o tamanho da fonte e outras propriedades de estilo do texto principal do conteúdo da página HTML.
+O seletor .apresentacao__links define as propriedades de estilo do contêiner que agrupa os links de redes sociais da página HTML. O layout é definido como flexível com espaçamento uniforme entre os itens filhos.
+O seletor .apresentacao__links__link define as propriedades de estilo dos links das redes sociais da página HTML, como a cor de fundo, o tamanho da fonte, o peso da fonte e o espaçamento ao redor do texto. Também é removido o sublinhado dos links e definida a cor do texto como preta.
